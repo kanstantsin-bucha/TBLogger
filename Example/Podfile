@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'TBLogger_Example' do
+  pod 'TBLogger', :path => '../'
+
+  target 'TBLogger_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end
