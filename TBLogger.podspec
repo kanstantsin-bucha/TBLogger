@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBLogger'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TBLogger.'
+  s.version          = '1.0.0'
+  s.summary          = 'TBLogger helps you log in clear per instance way'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    TBLogger helps you log in clear per instance way.
+    You could set desired log level in runtime and even change it on the fly.
+    You could customize log format, log level descriptions.
                        DESC
 
   s.homepage         = 'https://github.com/truebucha/TBLogger'
@@ -26,9 +28,9 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'truebucha' => 'truebucha@gmail.com' }
   s.source           = { :git => 'https://github.com/truebucha/TBLogger.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://twitter.com/truebucha'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'TBLogger/Classes/**/*'
   
@@ -36,7 +38,7 @@ TODO: Add long description of the pod here.
   #   'TBLogger' => ['TBLogger/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'TBLogger/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'CDBKit', '~> 1.0'
 end

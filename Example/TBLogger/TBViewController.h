@@ -8,6 +8,10 @@
 
 @import UIKit;
 
+@class TBLogger;
+
 @interface TBViewController : UIViewController
+
+@property (strong, nonatomic, nonnull) TBLogger * logger;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "TBViewController.h"
+#import <TBLogger/TBLogger.h>
 
 @interface TBViewController ()
 
@@ -14,15 +15,37 @@
 
 @implementation TBViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+/// MARK: - property -
+
+- (TBLogger *)logger {
+    if (_logger != nil) {
+        return _logger;
+    }
+    
+    _logger = [TBLogger loggerWithName: NSStringFromClass([self class])];
+    _logger.logLevel = TBLogLevelInfo;
+    return _logger;
 }
 
-- (void)didReceiveMemoryWarning
-{
+/// MARK: - life cycle -
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self.logger info:@"View did load start"];
+    
+    [self.logger log:@"View did load succeed"];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear: animated];
+    [self.logger info:@"View will appear start"];
+    //NSAssert(NO, @"Test assert");
+    [self.logger log:@"View will appear succeed"];
+}
+
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    [self.logger warning:@"View did received mamory warning"];
     // Dispose of any resources that can be recreated.
 }
 

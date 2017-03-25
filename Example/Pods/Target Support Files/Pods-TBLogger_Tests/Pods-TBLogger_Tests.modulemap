@@ -1,0 +1,6 @@
+framework module Pods_TBLogger_Tests {
+  umbrella header "Pods-TBLogger_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
