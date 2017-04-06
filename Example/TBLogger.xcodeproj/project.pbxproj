@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08C1ED151E96B2CF003D7CAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1ED141E96B2CF003D7CAA /* AppDelegate.m */; };
+		08C1ED181E96B2CF003D7CAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1ED171E96B2CF003D7CAA /* main.m */; };
+		08C1ED1B1E96B2CF003D7CAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1ED1A1E96B2CF003D7CAA /* ViewController.m */; };
+		08C1ED1D1E96B2CF003D7CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C1ED1C1E96B2CF003D7CAA /* Assets.xcassets */; };
+		08C1ED201E96B2CF003D7CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C1ED1E1E96B2CF003D7CAA /* Main.storyboard */; };
+		1610D898EFAE32140B410679 /* Pods_Pod_TBLogger_Mac_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C93320EA83BA64EB47F4DBF /* Pods_Pod_TBLogger_Mac_Example.framework */; };
+		3B5A53C21FF157E232EED133 /* Pods_Pod_TBLogger_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC1F076D6C6A78BDD462274 /* Pods_Pod_TBLogger_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,7 +28,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7332FB87D8FCE90172274309 /* Pods_TBLogger_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284956D658819FDDF605A58A /* Pods_TBLogger_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A76BD40A9FD75844D28C768E /* Pods_TBLogger_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0715E875A620504610549AE6 /* Pods_TBLogger_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -38,9 +44,20 @@
 
 /* Begin PBXFileReference section */
 		0715E875A620504610549AE6 /* Pods_TBLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C1ED111E96B2CF003D7CAA /* TBLogger_Mac_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBLogger_Mac_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C1ED131E96B2CF003D7CAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08C1ED141E96B2CF003D7CAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08C1ED171E96B2CF003D7CAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08C1ED191E96B2CF003D7CAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		08C1ED1A1E96B2CF003D7CAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08C1ED1C1E96B2CF003D7CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08C1ED1F1E96B2CF003D7CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08C1ED211E96B2CF003D7CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		284956D658819FDDF605A58A /* Pods_TBLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		368576F0279E3822C9502EF2 /* TBLogger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TBLogger.podspec; path = ../TBLogger.podspec; sourceTree = "<group>"; };
+		368576F0279E3822C9502EF2 /* TBLogger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TBLogger.podspec; path = ../TBLogger.podspec; sourceTree = "<group>"; };
+		3B94840C1AC490B1FC8E6B91 /* Pods-Pod-TBLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-TBLogger_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pod-TBLogger_Example/Pods-Pod-TBLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4B418E14C4D12D67ABA42A76 /* Pods-TBLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBLogger_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TBLogger_Tests/Pods-TBLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5C93320EA83BA64EB47F4DBF /* Pods_Pod_TBLogger_Mac_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pod_TBLogger_Mac_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TBLogger_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBLogger_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,14 +79,26 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77E745F3C853C71B38187F52 /* Pods-TBLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBLogger_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TBLogger_Example/Pods-TBLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7BC1F076D6C6A78BDD462274 /* Pods_Pod_TBLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pod_TBLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC769E4C1A88407BA4366A87 /* Pods-TBLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBLogger_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TBLogger_Example/Pods-TBLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
-		ACC70A061F7BA6E08787DC31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ACC70A061F7BA6E08787DC31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B16400327C8B5E23339386A1 /* Pods-Pod-TBLogger_Mac_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-TBLogger_Mac_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pod-TBLogger_Mac_Example/Pods-Pod-TBLogger_Mac_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C5796C6349EDC07A30C3C8BF /* Pods-Pod-TBLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-TBLogger_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pod-TBLogger_Example/Pods-Pod-TBLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C7B14CF8A9F0C0EF396878F1 /* Pods-Pod-TBLogger_Mac_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-TBLogger_Mac_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pod-TBLogger_Mac_Example/Pods-Pod-TBLogger_Mac_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E654CAFEE9C7546C4206EACE /* Pods-TBLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBLogger_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TBLogger_Tests/Pods-TBLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F21AF49CC9D83C75868A075E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F21AF49CC9D83C75868A075E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		08C1ED0E1E96B2CF003D7CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1610D898EFAE32140B410679 /* Pods_Pod_TBLogger_Mac_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,7 +106,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				7332FB87D8FCE90172274309 /* Pods_TBLogger_Example.framework in Frameworks */,
+				3B5A53C21FF157E232EED133 /* Pods_Pod_TBLogger_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,12 +124,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08C1ED121E96B2CF003D7CAA /* TBLogger_Mac_Example */ = {
+			isa = PBXGroup;
+			children = (
+				08C1ED131E96B2CF003D7CAA /* AppDelegate.h */,
+				08C1ED141E96B2CF003D7CAA /* AppDelegate.m */,
+				08C1ED191E96B2CF003D7CAA /* ViewController.h */,
+				08C1ED1A1E96B2CF003D7CAA /* ViewController.m */,
+				08C1ED1C1E96B2CF003D7CAA /* Assets.xcassets */,
+				08C1ED1E1E96B2CF003D7CAA /* Main.storyboard */,
+				08C1ED211E96B2CF003D7CAA /* Info.plist */,
+				08C1ED161E96B2CF003D7CAA /* Supporting Files */,
+			);
+			path = TBLogger_Mac_Example;
+			sourceTree = "<group>";
+		};
+		08C1ED161E96B2CF003D7CAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08C1ED171E96B2CF003D7CAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for TBLogger */,
 				6003F5B5195388D20070C39A /* Tests */,
+				08C1ED121E96B2CF003D7CAA /* TBLogger_Mac_Example */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				FD92889DF4C59711ECE0E8D4 /* Pods */,
@@ -112,6 +165,7 @@
 			children = (
 				6003F58A195388D20070C39A /* TBLogger_Example.app */,
 				6003F5AE195388D20070C39A /* TBLogger_Tests.xctest */,
+				08C1ED111E96B2CF003D7CAA /* TBLogger_Mac_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +179,8 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				284956D658819FDDF605A58A /* Pods_TBLogger_Example.framework */,
 				0715E875A620504610549AE6 /* Pods_TBLogger_Tests.framework */,
+				7BC1F076D6C6A78BDD462274 /* Pods_Pod_TBLogger_Example.framework */,
+				5C93320EA83BA64EB47F4DBF /* Pods_Pod_TBLogger_Mac_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,6 +248,10 @@
 				AC769E4C1A88407BA4366A87 /* Pods-TBLogger_Example.release.xcconfig */,
 				E654CAFEE9C7546C4206EACE /* Pods-TBLogger_Tests.debug.xcconfig */,
 				4B418E14C4D12D67ABA42A76 /* Pods-TBLogger_Tests.release.xcconfig */,
+				3B94840C1AC490B1FC8E6B91 /* Pods-Pod-TBLogger_Example.debug.xcconfig */,
+				C5796C6349EDC07A30C3C8BF /* Pods-Pod-TBLogger_Example.release.xcconfig */,
+				B16400327C8B5E23339386A1 /* Pods-Pod-TBLogger_Mac_Example.debug.xcconfig */,
+				C7B14CF8A9F0C0EF396878F1 /* Pods-Pod-TBLogger_Mac_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -199,6 +259,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		08C1ED101E96B2CF003D7CAA /* TBLogger_Mac_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C1ED241E96B2CF003D7CAA /* Build configuration list for PBXNativeTarget "TBLogger_Mac_Example" */;
+			buildPhases = (
+				1C2A5EAB763495E9C9986029 /* [CP] Check Pods Manifest.lock */,
+				08C1ED0D1E96B2CF003D7CAA /* Sources */,
+				08C1ED0E1E96B2CF003D7CAA /* Frameworks */,
+				08C1ED0F1E96B2CF003D7CAA /* Resources */,
+				F310E40096688DCB073DEE18 /* [CP] Embed Pods Frameworks */,
+				B441F604EB68937627D3E419 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBLogger_Mac_Example;
+			productName = TBLogger_Mac_Example;
+			productReference = 08C1ED111E96B2CF003D7CAA /* TBLogger_Mac_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6003F589195388D20070C39A /* TBLogger_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TBLogger_Example" */;
@@ -250,6 +330,11 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = truebucha;
 				TargetAttributes = {
+					08C1ED101E96B2CF003D7CAA = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 2K9F73F4AY;
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -270,11 +355,21 @@
 			targets = (
 				6003F589195388D20070C39A /* TBLogger_Example */,
 				6003F5AD195388D20070C39A /* TBLogger_Tests */,
+				08C1ED101E96B2CF003D7CAA /* TBLogger_Mac_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		08C1ED0F1E96B2CF003D7CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C1ED1D1E96B2CF003D7CAA /* Assets.xcassets in Resources */,
+				08C1ED201E96B2CF003D7CAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -298,6 +393,21 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		044FE089238ADF4574456EE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1C2A5EAB763495E9C9986029 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -354,7 +464,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TBLogger_Example/Pods-TBLogger_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pod-TBLogger_Example/Pods-Pod-TBLogger_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		73EEBFE47B8681DC9548F764 /* [CP] Copy Pods Resources */ = {
@@ -372,6 +482,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TBLogger_Tests/Pods-TBLogger_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B441F604EB68937627D3E419 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pod-TBLogger_Mac_Example/Pods-Pod-TBLogger_Mac_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CD65112C1E4B66E056E3BA1B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,12 +509,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TBLogger_Example/Pods-TBLogger_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pod-TBLogger_Example/Pods-Pod-TBLogger_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F310E40096688DCB073DEE18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pod-TBLogger_Mac_Example/Pods-Pod-TBLogger_Mac_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		08C1ED0D1E96B2CF003D7CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C1ED1B1E96B2CF003D7CAA /* ViewController.m in Sources */,
+				08C1ED181E96B2CF003D7CAA /* main.m in Sources */,
+				08C1ED151E96B2CF003D7CAA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -419,6 +569,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		08C1ED1E1E96B2CF003D7CAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08C1ED1F1E96B2CF003D7CAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,6 +604,61 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		08C1ED221E96B2CF003D7CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B16400327C8B5E23339386A1 /* Pods-Pod-TBLogger_Mac_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2K9F73F4AY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = TBLogger_Mac_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.truebucha.TBLogger-Mac-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		08C1ED231E96B2CF003D7CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B14CF8A9F0C0EF396878F1 /* Pods-Pod-TBLogger_Mac_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2K9F73F4AY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = TBLogger_Mac_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.truebucha.TBLogger-Mac-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -521,7 +734,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77E745F3C853C71B38187F52 /* Pods-TBLogger_Example.debug.xcconfig */;
+			baseConfigurationReference = 3B94840C1AC490B1FC8E6B91 /* Pods-Pod-TBLogger_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -536,7 +749,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC769E4C1A88407BA4366A87 /* Pods-TBLogger_Example.release.xcconfig */;
+			baseConfigurationReference = C5796C6349EDC07A30C3C8BF /* Pods-Pod-TBLogger_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -596,6 +809,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		08C1ED241E96B2CF003D7CAA /* Build configuration list for PBXNativeTarget "TBLogger_Mac_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C1ED221E96B2CF003D7CAA /* Debug */,
+				08C1ED231E96B2CF003D7CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "TBLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

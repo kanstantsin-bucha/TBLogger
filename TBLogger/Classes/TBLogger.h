@@ -6,8 +6,6 @@
 //
 //
 
-#import <UIKit/UIKit.h>
-
 typedef NS_ENUM(NSUInteger, TBLogLevel) {
     TBLogLevelVerbose = 0,
     TBLogLevelInfo = 1,

@@ -1,12 +1,17 @@
 use_frameworks!
 
-target 'TBLogger_Example' do
-  pod 'TBLogger', :path => '../'
 
-  target 'TBLogger_Tests' do
-    inherit! :search_paths
-
-    pod 'Specta'
-  pod 'Expecta'
-  end
+abstract_target 'Pod' do
+    pod 'TBLogger', :path => '../'
+    
+    target 'TBLogger_Example' do
+        platform :ios, '8.0'
+        target 'TBLogger_Tests' do
+            inherit! :search_paths
+        end
+    end
+    
+    target 'TBLogger_Mac_Example' do
+        platform :osx, '10.8'
+    end
 end

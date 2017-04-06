@@ -1,21 +1,23 @@
 //
-//  TBViewController.m
-//  TBLogger
+//  ViewController.m
+//  TBLogger_Mac_Example
 //
-//  Created by truebucha on 03/25/2017.
-//  Copyright (c) 2017 truebucha. All rights reserved.
+//  Created by Bucha Kanstantsin on 4/6/17.
+//  Copyright © 2017 truebucha. All rights reserved.
 //
 
-#import "TBViewController.h"
+#import "ViewController.h"
 #import <TBLogger/TBLogger.h>
 
-@interface TBViewController ()
+
+@interface ViewController ()
 
 @property (strong, nonatomic, nonnull) TBLogger * logger;
 
 @end
 
-@implementation TBViewController
+
+@implementation ViewController
 
 /// MARK: - property -
 
@@ -38,17 +40,11 @@
     [self.logger log:@"View did load succeed"];
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear: animated];
+- (void)viewWillAppear {
+    [super viewWillAppear];
     [self.logger info:@"View will appear start"];
     //NSAssert(NO, @"Test assert");
     [self.logger log:@"View will appear succeed"];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    [self.logger warning:@"View did received mamory warning"];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

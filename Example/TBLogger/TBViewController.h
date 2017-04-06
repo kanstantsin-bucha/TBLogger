@@ -12,6 +12,5 @@
 
 @interface TBViewController : UIViewController
 
-@property (strong, nonatomic, nonnull) TBLogger * logger;
 
 @end

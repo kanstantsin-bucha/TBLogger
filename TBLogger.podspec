@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBLogger'
-  s.version          = '1.0.0'
+  s.version          = '1.1.1'
   s.summary          = 'TBLogger helps you log in clear per instance way'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/truebucha'
 
   s.ios.deployment_target = '7.0'
+  s.osx.deployment_target = '10.8'
 
   s.source_files = 'TBLogger/Classes/**/*'
   
@@ -39,6 +40,6 @@ Pod::Spec.new do |s|
   # }
 
   s.public_header_files = 'TBLogger/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'CDBKit', '~> 1.0'
+  s.frameworks = 'Foundation'
+  s.dependency 'CDBKit', '~> 1.1'
 end
