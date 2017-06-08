@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBLogger'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'TBLogger helps you log in clear per instance way'
 
 # This description is used to generate tags and improve search results.

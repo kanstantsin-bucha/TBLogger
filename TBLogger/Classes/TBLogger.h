@@ -42,10 +42,10 @@ typedef NS_ENUM(NSUInteger, TBLogLevel) {
 
 @property (assign, nonatomic) TBLogLevel logLevel;
 
-+ (instancetype _Nullable)loggerWithName:(NSString * _Nullable)name;
++ (instancetype _Nonnull)loggerWithName:(NSString * _Nullable)name;
                                 
-- (instancetype _Nullable)init __unavailable;
-+ (instancetype _Nullable)new __unavailable;
+- (instancetype _Nonnull)init __unavailable;
++ (instancetype _Nonnull)new __unavailable;
 
 - (void)verbose:(NSString * _Nullable)format, ... NS_FORMAT_FUNCTION(1,2);
 - (void)info:(NSString * _Nullable)format, ... NS_FORMAT_FUNCTION(1,2);
